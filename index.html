@@ -9,35 +9,46 @@
   </head>
 
   <body>
-    <header class="">
-      <a href="#">Soundga</a>
-      <nav class="">
-        <ul>
-          <li>Company</li>
-          <li>Integration</li>
-          <li>Platform</li>
-          <li>Princing</li>
-        </ul>
-      </nav>
+    <header>
+      <div class="header__container container">
+        <a class="header__brand" href="#">Soundga</a>
+        <nav class="header__navigation">
+          <ul>
+            <li><a href="#">Company</a></li>
+            <li><a href="#">Integration</a></li>
+            <li><a href="#">Platform</a></li>
+            <li><a href="#">Princing</a></li>
+          </ul>
+        </nav>
 
-      <div>
-        <a href="#">Sign Up</a>
+        <div class="header__actions">
+          <a class="btn btn-secondary" href="#">Sign Up</a>
+        </div>
       </div>
     </header>
 
     <main>
-      <article>
-        <h1>Every kind of analytic to stand out financially genius</h1>
-        <div>
-          <div>
-            <p>
-              Create and share professional invoices for your customers. Send
-              reminders for payments easily
-            </p>
-            <div>
-              <a href="#">Get Started</a>
-              <a href="#">Watch video</a>
+      <article class="jumbotron">
+        <div class="jumbotron__container container">
+          <h1 class="jumbotron__title">
+            Every kind of analytic to stand out financially genius
+          </h1>
+          <div class="jumbotron__content">
+            <div class="jumbotron__content-item">
+              <p class="jumbotron__description">
+                Create and share professional invoices for your customers. Send
+                reminders for payments easily
+              </p>
+              <div class="jumbotron__actions">
+                <a class="btn btn-secondary" href="#">Get Started</a>
+                <a class="btn btn-link" href="#">Watch video</a>
+              </div>
             </div>
+            <img
+              class="jumbotron__image"
+              src="./assets/images/visa.png"
+              alt="Visa image"
+            />
           </div>
         </div>
       </article>
