@@ -93,3 +93,59 @@ header {
   height: auto;
   margin-top: -200px;
 }
+
+.statistics {
+  background-color: #dff2ec;
+  color: #000405;
+}
+.statistics__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 48px 64px;
+}
+.statistics__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.statistics__item-counter {
+  font-size: 64px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: inherit;
+}
+.statistics__item-description {
+  font-size: 14px;
+  color: inherit;
+}
+
+.subscription__container {
+  padding: 74px 48px;
+}
+.subscription__title {
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 82px;
+  text-align: center;
+}
+.subscription__plan {
+  display: flex;
+  column-gap: 24px;
+}
+.subscription__item {
+  padding: 24px 32px;
+  border-right: 1px solid #cbd6d6;
+}
+.subscription__item:last-child {
+  border-right: none;
+}
+.subscription__item-title {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.subscription__item-description {
+  font-size: 14px;
+  line-height: 150%;
+}
