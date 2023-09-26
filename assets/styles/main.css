@@ -191,3 +191,66 @@ header {
   width: 400px;
   height: auto;
 }
+
+.superiority__container {
+  padding: 24px 64px;
+  display: flex;
+  column-gap: 56px;
+  align-items: center;
+}
+.superiority__figure {
+  min-width: 30%;
+  max-width: 575px;
+}
+.superiority__content {
+  padding-top: 24px;
+}
+.superiority__title {
+  font-size: 52px;
+  font-weight: 500;
+  margin-bottom: 24px;
+  max-width: 500px;
+  line-height: 125%;
+}
+.superiority__description {
+  font-size: 12px;
+  margin-top: 24px;
+  line-height: 150%;
+  max-width: 450px;
+}
+.superiority__actions {
+  margin-top: 24px;
+  display: flex;
+}
+
+.testimonial__container {
+  padding: 40px 48px;
+}
+.testimonial__title {
+  font-size: 42px;
+  font-weight: 500;
+  margin-bottom: 32px;
+  text-align: center;
+}
+.testimonial__content {
+  display: flex;
+  column-gap: 56px;
+  align-items: center;
+  background-color: #d8e28c;
+}
+.testimonial__figure {
+  padding-top: 24px;
+  margin-left: 32px;
+}
+.testimonial__review {
+  padding-top: 24px;
+}
+.testimonial__review-text {
+  font-size: 24px;
+  line-height: 150%;
+  margin-bottom: 24px;
+  max-width: 70%;
+}
+.testimonial__review-person {
+  line-height: 125%;
+}
