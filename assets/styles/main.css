@@ -17,6 +17,7 @@ header {
   background-color: #114a43;
   top: 0;
   position: sticky;
+  z-index: 100;
 }
 
 .btn {
@@ -223,6 +224,10 @@ header {
   display: flex;
 }
 
+.testimonial {
+  position: relative;
+  z-index: 1;
+}
 .testimonial__container {
   padding: 40px 48px;
 }
@@ -253,4 +258,91 @@ header {
 }
 .testimonial__review-person {
   line-height: 125%;
+}
+
+.footer {
+  margin-top: -100px;
+  background-color: #114a43;
+  color: #fff;
+}
+.footer__container {
+  padding: 124px 48px 24px 48px;
+}
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 128px;
+}
+.footer__content-left {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+.footer__content-right-title {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+.footer__content-right-description {
+  font-size: 12px;
+  line-height: 150%;
+  max-width: 300px;
+  margin-bottom: 16px;
+  color: #cbd6d6;
+}
+.footer__email-group {
+  display: flex;
+  column-gap: 12px;
+  position: relative;
+}
+.footer__email-group input {
+  padding: 12px 18px;
+  border-radius: 24px;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+.footer__email-group button {
+  padding: 12px 18px;
+  border-radius: 24px;
+  border: none;
+  outline: none;
+  background-color: #d8e28c;
+  color: #000405;
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+}
+.footer__nav-title {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+.footer__nav-list-item {
+  margin-bottom: 12px;
+}
+.footer__nav-list-item a {
+  color: #cbd6d6;
+  font-size: 12px;
+  text-decoration: none;
+}
+.footer__copyright {
+  font-size: 12px;
+  margin-top: 24px;
+  padding-top: 32px;
+  border-top: 1px solid #cbd6d627;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__brand {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: inherit;
+  text-decoration: none;
+}
+.footer__social-media-item img {
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
 }
