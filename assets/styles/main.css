@@ -388,6 +388,25 @@ header {
   .statistics__item-counter {
     font-size: 64px;
   }
+
+  .subscription__title {
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
+  .subscription__plan {
+    flex-direction: column;
+    row-gap: 0px;
+  }
+  .subscription__item {
+    padding: 24px 0;
+    border-right: none;
+  }
+  .subscription__item-title {
+    text-align: center;
+  }
+  .subscription__item-description {
+    text-align: center;
+  }
 }
 @media (max-width: 1200px) {
   .jumbotron__title {
