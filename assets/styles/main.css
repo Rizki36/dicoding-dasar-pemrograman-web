@@ -416,4 +416,26 @@ header {
   .jumbotron__image {
     display: none;
   }
+
+  .feature__container {
+    padding: 48px 24px;
+  }
+  .feature__item-title {
+    font-size: 32px;
+  }
+  .feature__item:nth-child(3) {
+    flex-direction: column;
+    row-gap: 24px;
+  }
+  .feature__item-image {
+    max-width: 400px;
+  }
+  .feature__item:nth-child(1) img,
+  .feature__item:nth-child(2) img {
+    border-radius: 12px;
+  }
+  .feature__item:nth-child(3) img {
+    width: 100%;
+    height: auto;
+  }
 }
