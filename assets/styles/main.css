@@ -407,6 +407,30 @@ header {
   .subscription__item-description {
     text-align: center;
   }
+
+  .superiority__container {
+    flex-direction: column;
+    row-gap: 48px;
+    padding: 24px;
+  }
+  .superiority__title {
+    font-size: 24px;
+    text-align: center;
+  }
+  .superiority__figure {
+    min-width: unset;
+    width: 100%;
+  }
+  .superiority__content {
+    padding-top: 0;
+  }
+  .superiority__description {
+    max-width: none;
+    text-align: center;
+  }
+  .superiority__actions {
+    justify-content: center;
+  }
 }
 @media (max-width: 1200px) {
   .jumbotron__title {
