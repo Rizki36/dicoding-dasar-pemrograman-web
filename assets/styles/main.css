@@ -380,6 +380,14 @@ header {
     display: flex;
     justify-content: center;
   }
+
+  .statistics__container {
+    flex-direction: column;
+    row-gap: 48px;
+  }
+  .statistics__item-counter {
+    font-size: 64px;
+  }
 }
 @media (max-width: 1200px) {
   .jumbotron__title {
