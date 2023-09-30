@@ -351,3 +351,42 @@ header {
   height: 24px;
   margin-right: 12px;
 }
+
+@media screen and (max-width: 768px) {
+  .header__navigation {
+    display: none;
+  }
+  .header__actions {
+    display: none;
+  }
+  .jumbotron__title {
+    font-size: 28px;
+    max-width: none;
+    margin-bottom: 12px;
+    text-align: center;
+  }
+  .jumbotron__content-item {
+    margin-right: 0;
+  }
+  .jumbotron__description {
+    font-size: 12px;
+    text-align: center;
+  }
+  .jumbotron__content {
+    flex-direction: column;
+    row-gap: 28px;
+  }
+  .jumbotron__actions {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 1200px) {
+  .jumbotron__title {
+    max-width: none;
+  }
+
+  .jumbotron__image {
+    display: none;
+  }
+}
