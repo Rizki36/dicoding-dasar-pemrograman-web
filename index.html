@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="./assets/styles/reset.css" />
     <link rel="stylesheet" href="./assets/styles/main.css" />
     <script src="./assets/js/tilt-js.js" defer></script>
+    <script src="./assets/js/animateAnything.js" defer></script>
+    <script src="./assets/js/menu.js" defer></script>
+    <script src="./assets/js/index.js" defer></script>
   </head>
 
   <body>
@@ -23,6 +26,18 @@
         </nav>
 
         <div class="header__actions">
+          <button class="header__navigation-menu">
+            <div class="header__navigation-menu-container">
+              <svg
+                class="header__navigation-menu-container-icon"
+                viewBox="0 0 100 100"
+              >
+                <path id="top-line-1" d="M30,37 L70,37 Z"></path>
+                <path id="middle-line-1" d="M30,50 L70,50 Z"></path>
+                <path id="bottom-line-1" d="M30,63 L70,63 Z"></path>
+              </svg>
+            </div>
+          </button>
           <a class="btn btn-secondary" href="#">Sign Up</a>
         </div>
       </div>
@@ -218,7 +233,7 @@
         </div>
       </article>
 
-      <!-- <footer class="footer">
+      <footer class="footer">
         <div class="footer__container container">
           <section class="footer__content">
             <div class="footer__content-left">
@@ -334,7 +349,7 @@
             </div>
           </section>
         </div>
-      </footer> -->
+      </footer>
     </main>
   </body>
 </html>

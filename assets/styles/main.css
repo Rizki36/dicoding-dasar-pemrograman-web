@@ -60,6 +60,9 @@ header {
   text-decoration: none;
   color: inherit;
 }
+.header__navigation-menu {
+  display: none;
+}
 
 .jumbotron {
   background-color: #114a43;
@@ -353,12 +356,57 @@ header {
 }
 
 @media screen and (max-width: 768px) {
+  .header__container {
+    position: relative;
+    z-index: 1000;
+  }
   .header__navigation {
+    display: flex;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: -300px;
+    background-color: #114a43;
+    transition: all 0.5s ease-in-out;
+    z-index: 0;
+  }
+  .header__navigation.header__navigation-open {
+    top: 71px;
+  }
+  .header__navigation ul {
+    flex-direction: column;
+    width: 100%;
+  }
+  .header__navigation ul li {
+    text-align: center;
+    padding: 24px;
+  }
+  .header__navigation ul li:hover {
+    background-color: #0f443d;
+  }
+  .header__actions a {
     display: none;
   }
-  .header__actions {
-    display: none;
+  .header__navigation-menu {
+    display: inline-block;
+    border: none;
+    background-color: transparent;
   }
+  .header__navigation-menu-container {
+    width: 36px;
+  }
+  .header__navigation-menu-container-icon {
+    stroke: #ffffff;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke-width: 6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    cursor: pointer;
+  }
+
   .jumbotron__title {
     font-size: 28px;
     max-width: none;
@@ -379,6 +427,10 @@ header {
   .jumbotron__actions {
     display: flex;
     justify-content: center;
+  }
+
+  .feature__item-title {
+    font-size: 12px;
   }
 
   .statistics__container {
@@ -456,6 +508,19 @@ header {
     text-align: center;
     font-size: 12px;
   }
+
+  .footer__copyright {
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+  }
+  .footer__social-media {
+    display: flex;
+    justify-content: center;
+  }
+  .footer__social-media-item img {
+    width: 18px;
+  }
 }
 @media (max-width: 1200px) {
   .jumbotron__title {
@@ -486,5 +551,16 @@ header {
   .feature__item:nth-child(3) img {
     width: 100%;
     height: auto;
+  }
+
+  .footer__content {
+    flex-direction: column;
+    gap: 24px;
+    justify-content: space-between;
+  }
+  .footer__content-left {
+    flex-wrap: wrap;
+    gap: 36px;
+    justify-content: flex-start;
   }
 }
