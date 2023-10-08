@@ -431,6 +431,31 @@ header {
   .superiority__actions {
     justify-content: center;
   }
+
+  .testimonial__container {
+    border-top: 1px solid #cbd6d6;
+    padding: 24px;
+  }
+  .testimonial__title {
+    font-size: 24px;
+    text-align: center;
+  }
+  .testimonial__review {
+    padding: 24px;
+  }
+  .testimonial__figure {
+    display: none;
+  }
+  .testimonial__review-text {
+    max-width: none;
+    text-align: center;
+    padding: 0;
+    font-size: 16px;
+  }
+  .testimonial__review-person {
+    text-align: center;
+    font-size: 12px;
+  }
 }
 @media (max-width: 1200px) {
   .jumbotron__title {
